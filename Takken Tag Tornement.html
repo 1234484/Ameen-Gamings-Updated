@@ -1,0 +1,187 @@
+<html>
+<head>
+    <link rel="icon" href="./Images/Ameen Gaming.png" type="image">
+    <title>About Us</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="Download.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>    
+<body>
+   <div class="bg">
+
+
+<h2>Modal Login Form</h2>
+
+<button id="button" onclick="document.getElementById('id01').style.display='block'" style="width:100%; margin-top: 0;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="Images/Ameen Gaming.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button id="button" type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+     <div class="profile-dropdown">
+        <div onclick="toggle()" class="profile-dropdown-btn">
+          <div class="profile-img">
+            <i class="fa-solid fa-circle"></i>
+          </div>
+
+          <span
+            >Ameen Gaming
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        </div>
+        <li class="profile-dropdown-list-item">
+          <a href="./index.html">
+            <i class="fa-solid fa-house"></i>
+            Home
+          </a>
+        </li>
+        <ul class="profile-dropdown-list">
+          <li class="profile-dropdown-list-item">
+            <a href="./About Us.html">
+              <i class="fa-regular fa-user"></i>
+              About Us
+            </a>
+          </li>
+
+         
+
+          <li class="profile-dropdown-list-item">
+            <a href="./veiws.html">
+              <i class="fa-solid fa-chart-line"></i>
+              Analytics
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="./Action.html">
+              <i class="fa-regular fa-gamepad" style="color: #ffffff;"></i>
+             Action Games
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="./Racing.html">
+              <i class="fa-regular fa-gamepad" style="color: #ffffff;"></i>
+              Racing Games
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="./Fighting.html">
+              <i class="fa-regular fa-gamepad" style="color: #ffffff;"></i>
+              Fighting Games
+            </a>
+          </li>
+          <li class="profile-dropdown-list-item">
+            <a href="./Cricket.html">
+              <i class="fa-regular fa-gamepad" style="color: #ffffff;"></i>
+              Cricket Games
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="./new updates.html">
+              <i class="fa-solid fa-sliders"></i>
+              New Uptates
+            </a>
+          </li>
+
+          <li class="profile-dropdown-list-item">
+            <a href="./Help Us.html">
+              <i class="fa-regular fa-circle-question"></i>
+              Help & Support
+            </a>
+          </li>
+          <hr />
+
+          <li class="profile-dropdown-list-item">
+            <a onclick="document.getElementById('id01').style.display='block'" style="width:80%;">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Log in or out
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav><br>
+
+    <script src="script.js"></script>
+     <a class="Uptates" href="./new updates.html">New Updates</a>  
+<body>
+	<div class="text">Takken Tag Tornement :-</div>
+		<div class="text2">
+			<div><b>RAM:</b>2GB</div>
+			<div><b>ROM:</b>512MB</div>
+			<div><b>MBs:</b>65MBs</div>
+			<div><b>Display:</b>Graphics</div>
+			<div><b>Quality:</b>720p</div>
+			 <p class="Download"><b>Download</b>:free</p>
+		</div>
+		<div class="text3">Takken Tag Tornement Some Images</div>
+		<div class="img1">Image 1:-</div>
+		<img src="./Images/Takken Tag Tornement.jpg" class="go">
+		<div class="img1">Image 2:-
+		<img src="./Images/Takken Tag Tornement1.jpg" class="go">
+		<div class="text">Download Takken Tag Tornement:-</div>
+		<a href="https://tekken-tag-tournament.en.uptodown.com/windows/post-download/106923909" download><button class="button">Download</button></a>
+		
+		<footer class="footer">
+    <a href="#"><img src="./Images/large.png" class="load" alt=""  ></a>
+    <ul>
+        <li class="links"><a href="#">Home</a>
+        <a href="About Us">About Us</a>
+        <a href="Help Us">Help Us</a></li>
+        <li class="link">
+        <a href="Help Us">Thanks to Visiting My Website....</a>
+    </li>
+        </ul>
+        <div class="word">
+            Download Ameen Gaming Website..<br><br>
+          <a href="./Ameen Gaming.rar" download>  <button class="btn3">Download Website</button></a>
+            <br>
+            <br>
+            <a href="https://www.youtube.com/channel/UCldXrUHeluugnl8rEi1l0Kw"><i class="fa-brands fa-youtube"  ></i>
+            
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          
+         <a href="https://www.linkedin.com/in/indlink-vest-29b6b53b?originalSubdomain=in">   <i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      
+</footer>  
+<boady         
+</html>
